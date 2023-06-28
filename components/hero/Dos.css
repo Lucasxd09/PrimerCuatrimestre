@@ -1,0 +1,37 @@
+.pal {
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/footer-bg.jpg') no-repeat center center/cover; /**/
+}
+
+.pal .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pal .content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 6rem;
+}
+
+.pal h1 {
+    color: black;
+}
+.pal p {
+    color: black;
+}
+
+
+.pal .blue {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width:940px) {
+   .pal .content {
+    margin-left: 1rem;
+   } 
+}
